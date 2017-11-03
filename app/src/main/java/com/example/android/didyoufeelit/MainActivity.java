@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
 
         EarthquakeAsyncTask earthquakeAsyncTask = new EarthquakeAsyncTask();
 
-        earthquakeAsyncTask.execute();
+        earthquakeAsyncTask.execute(USGS_REQUEST_URL);
 
 //        // Perform the HTTP request for earthquake data and process the response.
 //        Event earthquake = Utils.fetchEarthquakeData(USGS_REQUEST_URL);
